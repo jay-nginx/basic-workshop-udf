@@ -5,6 +5,7 @@
 
 #!/bin/bash
 echo "Kubernetes vanilla installation begins using KubeADM"
+export DEBIAN_FRONTEND=noninteractive
 apt-get clean
 rm /var/lib/dpkg/lock    
 rm /var/cache/apt/archives/lock
