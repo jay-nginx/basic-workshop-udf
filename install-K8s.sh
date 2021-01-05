@@ -1,6 +1,7 @@
 ## Execute using 
-## curl -s https://raw.githubusercontent.com/learnbyseven/KUBERNETES-TRAINING/master/install-K8s.sh | bash
+## curl -s https://raw.githubusercontent.com/jay-nginx/basic-workshop-udf/main/install-K8s.sh | bash
 ## Author: Giriraj Rajawat
+## Created for Ubuntu 18.04 - Might not work on other flavours of Linux
 
 #!/bin/bash
 echo "Kubernetes vanilla installation begins using KubeADM"
