@@ -376,6 +376,7 @@ Make NGINX Plus Container
 	sudo cp /opt/nplus-keys/nginx-repo* .
 	apt install make
 	make DOCKERFILE=DockerfileForPlus PREFIX=nginx-plus-ingress
+	Note: Ignore the errors received for pushing the image to a repo
 	docker images
 	helm install my-release nginx-stable/nginx-ingress --set controller.image.repository=nginx-plus-ingress --set controller.nginxplus=true
 
