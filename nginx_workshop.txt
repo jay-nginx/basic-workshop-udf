@@ -387,6 +387,7 @@ Install a Demo Application
 	cat cafe.yaml
 	cat cafe-secret.yaml
 	cat cafe-ingress.yaml
+	sudo vi cafe-ingress.yaml ( edit to include the ingressClassName )
 	kubectl apply -f cafe.yaml
 	kubectl apply -f cafe-secret.yaml
 	sudo vi cafe-ingress.yaml
