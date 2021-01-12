@@ -317,7 +317,7 @@ Install & Configure APP Protect
 "Configure NAP"
 
 	cd /etc/nginx/conf.d/
-	sudo vi nap.conf
+	sudo vi nap_dvwa.conf
 
 ### nap_dvwa.conf ###
 
@@ -371,9 +371,14 @@ Install & Configure APP Protect
 
 ### ###
 
-	curl 10.1.1.5:8090
-	curl '10.1.1.5:8090/?<script>'
+Username / Password for DVWA Website: admin / password
+Command Injection: 127.0.0.1
+Command Injection: 127.0.0.1; cat /etc/passwd
 
+sudo cp /opt/dvwa-policy-v1.json /etc/nginx/
+
+SQL Injection: 2
+SQL Injection: %' and 1=0 union select null, concat(user,':',password) from users #
 
 Install K8s
 
