@@ -311,6 +311,8 @@ Install & Configure APP Protect
 	sudo apt-get install app-protect
 	cd /etc/nginx/
 	sudo vi nginx.conf
+	# insert
+	# load_module modules/ngx_http_app_protect_module.so;
 	sudo service nginx stop
 	sudo service nginx start
 
