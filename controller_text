@@ -4,9 +4,9 @@ Install Pre-Req
 
 	sudo apt-get update
 
-	sudo apt-get install jq
-	sudo apt-get install socat
-	sudo apt-get install conntrack
+	sudo apt-get install jq -y
+	sudo apt-get install socat -y
+	sudo apt-get install conntrack -y
 
 	sudo tar xvzf controller-installer-3.12.1.tar.gz
 
