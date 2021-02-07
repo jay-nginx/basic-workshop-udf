@@ -15,3 +15,8 @@ F5 UDF Lab is built upon a few Ubuntu 18.04 instances and also has a Windows Jum
 ### Shout-out:
 Davis Li, Giriraj Rajawat, Rajesh Bavanantham & Sean Maritz. 
 
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
+
