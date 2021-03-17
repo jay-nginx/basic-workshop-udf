@@ -8,7 +8,7 @@ Install Pre-Req
 	sudo apt-get install socat -y
 	sudo apt-get install conntrack -y
 
-	sudo tar xvzf controller-installer-3.14.0.tar.gz
+	sudo tar xvzf controller-installer-3.15.0.tar.gz
 
 	cd controller-installer
 	./install.sh
