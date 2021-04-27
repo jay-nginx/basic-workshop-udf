@@ -227,7 +227,7 @@ server {
 
 	location / {
 	index index.html;
-	root /opt/services/covid-app;
+	root /opt/services/apple-app;
 
 	}
 }
