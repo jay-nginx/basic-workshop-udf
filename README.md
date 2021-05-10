@@ -1,5 +1,5 @@
 ### Hi there .. Readme Testing in Progress 👋
-- 🌱 I’m currently learning ...
+- 🌱 I’m currently working on ...
 
 <!--
 **jay-nginx/jay-nginx** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
